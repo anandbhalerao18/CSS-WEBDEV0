@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box shadow and text shadow</title>
+
+</head>
+<style>
+    body{
+        background-image: url(https://images.unsplash.com/photo-1507275016429-544fc0875edd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80);
+    }
+    .container{
+        display: flex;
+    }
+    .card h2{
+        /* This are the attributes to add text shadow  */
+        /* text-shadow: 3px 4px rgb(255, 255, 255); */
+        /* text-shadow: 3px 4px 2px rgb(255, 255, 255); */
+        /* text-shadow: -3px -4px 2px rgb(255, 255, 255);  */
+
+    }
+    .card{
+        
+        padding: 23px 12px;
+        margin: 23px 12px;
+        /* border: 2px solid red; */
+        background: url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80/* ) no-repeat center center/cover;
+
+        /* box-shadow: (offset-x, offset-y, blurradius, spread radius) ; */
+        /* box-shadow: 10px 13px rgb(0, 225, 255);  */
+        /* box-shadow: -10px -13px rgb(0, 225, 255 ); */
+        /* box-shadow: 7px 5px 10px ; */
+        /* box-shadow: -7px -5px -10px ;  */
+        /* box-shadow: -7px -5px 10px 34px; */
+        /* box-shadow: -7px -5px 10px 34px rgba(0, 69, 129, 0.5) */
+        /* box-shadow: inset 3px 5px white; */
+        box-shadow: inset 3px 5px rgb(255, 50, 50), 3px 5px blue;
+
+
+    }
+    
+</style>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>This is c++ course</h2>
+            <p>I have started C++ code which does not mean that we will stop this course we will continue this course to the completion Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex excepturi quam distinctio aperiam asperiores. Aperiam ratione quibusdam quidem cumque temporibus voluptates repellat a, qui blanditiis, optio odit neque reprehenderit nobis. Accusantium a similique quod!</p>
+        </div>
+        <div class="card" id="card-2">
+            <h2>This is HTML course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit neque vitae a. Possimus molestiae necessitatibus esse amet explicabo vel, quos reiciendis at quis reprehenderit libero nisi autem et commodi deleniti dolore. Veritatis, cumque saepe!</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>card3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veritatis ad quibusdam suscipit. Quae accusantium voluptatem tempore veritatis sint et natus nostrum delectus mollitia eligendi dolor ullam placeat, possimus, in, voluptas suscipit fugit rem!</p>
+        </div>
+    </div>
+</body>
+</html>
